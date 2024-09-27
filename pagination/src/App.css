@@ -1,0 +1,22 @@
+.product__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20;
+}
+
+.product_single {
+  border: 1px solid black;
+}
+
+span {
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.pagination__container {
+  margin: 16px 0;
+}
+
+.page__selected {
+  background-color: green;
+}
