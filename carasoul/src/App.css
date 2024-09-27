@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.carasoul-container {
+  width: 50vw;
+  height: 50vh;
+  background-color: aqua;
+}
+
+.carasoul {
+  position: relative;
+  height: 100%;
+  /* width: 100%; */
+  overflow: hidden;
+}
+
+.image-container {
+  display: flex;
+  height: 100%;
+}
+.image {
+  height: 100%;
+}
+
+.btn {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
